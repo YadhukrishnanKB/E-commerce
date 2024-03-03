@@ -1,0 +1,665 @@
+/* nav-bar */
+body{
+  overflow-x: hidden;
+}
+  /* nav  */
+
+  .nav-link.active{
+  font-size: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+  }
+  #logo
+  {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  #icons
+  {
+    float: left
+  }
+  .nav-link.active:hover{
+    color:#00BBDE;
+  }
+  #login
+  {
+    color: #00BBDE;
+  }
+  .nav-item
+  {
+    float: left;
+  }
+
+  /* carousel */
+
+.slider-contenet {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
+  color:#fff;
+}
+
+.win-contenet {
+  
+  color:#fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+   margin-top: 20px;
+
+ 
+}
+.title{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+.btn{
+  border: none;
+  background: #2dc071;
+  color: #fff;
+  margin-bottom: 120px;
+  float: left;
+}
+
+.selling{
+  margin-bottom: 0;
+  color:  #2C2C2C;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+ text-align: center;
+}
+.selling-1{
+  color:  #2C2C2C;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 5px; 
+  text-align: center;
+}
+
+/* images */
+
+.image-1
+    {
+      width: 300px;
+      height: 300px;
+      padding: 10px;
+    }
+
+    .image-2
+    {
+      width: 250px;
+      height: 300px;
+      padding: 10px;
+    }
+    .image-3
+    {
+      width: 160px;
+      height: 150px;
+      padding: 10px;
+    }
+    .image-4
+    {
+      width: 160px;
+      height: 150px;
+      padding: 10px;
+    }
+
+
+
+    .feature{
+      border: none;
+      align-items: center;
+      text-align: center;
+      box-shadow: 5px 5px 5px 5px #888888;
+      width: 250px;
+      height: auto;
+      margin: 40px;
+    }
+    .feature-title{
+      padding-top: 10px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+    }
+    .mini-title{
+      font-size: 10px;
+      font-weight: 500;
+      margin-bottom: 30px;
+    }
+    
+    
+    /* seller-section */
+    .selling-2
+    {
+      color:  #2C2C2C;
+      font-size: 15px;
+      font-weight: 500;
+     text-align: center;
+     margin-bottom: 0;
+    }
+    .selling-3
+    {
+      color:  #2C2C2C;
+      font-size: 15px;
+      font-weight: 500;
+     text-align: center;
+     margin-bottom: 0;
+    }
+    .selling-4
+    {
+      color:  #2C2C2C;
+      font-size: 15px;
+      font-weight: 500;
+     text-align: center;
+     margin-bottom: 0;
+    }
+    .seller-section{
+      background-color: rgb(243,243,243);
+      width: 100%;
+      height: 100%;
+    }
+    .seller-topic{
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+      padding-top: 20px;
+      
+    }
+    .buttons{
+      padding: 2px 15px 2px 15px;
+      color: #F0AA38;
+      border-color: #F0AA38;
+      border-style: 0.5px;
+      margin-right: 20px;
+    }
+    .buttons:hover{
+      background-color: #F0AA38;
+      color: white;
+    }
+    .card{
+      border: none;
+      border-radius: 0px;
+      margin: 30px 0px 50px 45px;
+    }
+    .card-name{
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    .price{
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      color: #F0AA38; 
+    }
+    
+    .perfume-img{
+      width: 120px;
+      height: 140px;
+      margin: 20px;
+    }
+    .last-card{
+      border: 0.1px solid;
+      border-color: #dfdada;
+      margin-bottom: 50px;
+      margin-left: 45px;
+      background-color: white;
+    }
+    .names{
+      text-align: left;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    .ofr-price{
+      text-align: left;
+      font-size: 15px;
+      font-weight: 500;
+      color: #F0AA38;
+    }
+    .demo{
+      border: 0.1px solid;
+      border-color: #dfdada;
+      border-radius: 10px;
+      padding: 2px 10px 3px 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .cart{
+      padding: 2px 10px 3px 10px;
+      color: white;
+      background-color: #F0AA38;
+      border-radius: 10px;
+      font-size: 15px;
+      margin-top: 12px;
+    }
+    .ofr-box{
+      padding: 20px;
+      margin-left: 20px;
+    }
+    .box-title{
+      font-size: 10px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 0;
+    
+    }
+    .demo-box{
+      border: 0.1px solid;
+      border-color: #dfdada;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 2px;
+    }
+    .box-para{
+      font-size: 8px;
+      text-align: center;
+    }
+
+
+    .red
+    {
+      border: none;
+      border-radius: 100%;
+      padding:  10px;
+      width: 1px;
+      height: 1px;
+      margin-right: 2px;
+      background-color: red;
+    }
+    .blue
+    {
+      border: none;
+      border-radius: 100%;
+      padding:  10px;
+      width: 1px;
+      height: 1px;
+      margin-right: 2px;
+      background-color: blue;
+    }
+    .yellow
+    {
+      border: none;
+      border-radius: 100%;
+      padding:  10px;
+      width: 1px;
+      height: 1px;
+      margin-right: 2px;
+      background-color: yellow;
+    }
+    .green
+    {
+      border: none;
+      border-radius: 100%;
+      padding:  10px;
+      width: 1px;
+      height: 1px;
+      margin-right: 2px;
+      background-color: green;
+    }
+
+
+
+    /* girl boy */
+    .image-5
+    {
+      width: 600px;
+      height: 600px;
+    }
+    .content-1
+    {
+     margin-top: 200px;
+     color: #BDBDBD;
+     font-weight: 600;
+     font-size: 15px;
+    }
+    .content-2
+    {
+     font-size: 35px;
+     font-weight: 700;
+    }
+    .content-3
+    {
+     font-size: 14px;
+    }
+    .button-1
+    {
+     background-color: #2dc071;
+     color: #fff;
+     border: none;
+     font-weight: 600;
+     font-size: 13px;
+     width: 100px;
+     height: 30px;
+     border-radius: 5px;
+    }
+    .button-2
+    {
+      background:transparent;
+      border: 1px #2dc071 solid;
+      color: #2dc071;
+      font-weight: 600;
+      font-size: 13px;
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+    }
+    /* feture post */
+.practise {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #23a6f0;
+}
+.fpost {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.fcontent {
+  text-align: center;
+  font-size: 14px;
+  color: #737373;
+  padding-bottom: 40px;
+}
+.img-post {
+  width: 200px;
+  height: 150px;
+}
+.box-post {
+  border: 0.1px solid;
+  border-color: #ececec;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+.mini-opt {
+  font-size: 8px;
+  padding: 5px;
+  color: #737373;
+  margin-bottom: 0;
+  
+}
+.loud{
+  font-size: 12px;
+font-weight: 500;
+padding-left: 5px;
+margin-bottom: 0;
+}
+.we{
+  text-align: left;
+  font-size: 10px;
+  color: #737373;
+  padding-left: 5px;
+  margin-bottom: 0;
+}
+.icon-date{
+  font-size: 10px;
+  color: #737373;
+  padding: 10px 5px 0px 5px;
+}
+.cooling{
+  width: 10px;
+  height: 10px;
+}
+.learn{
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+
+/* footer */
+.fhead{
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 240px;
+
+}
+.fb{
+  width: 15px;
+  height: 15px;
+  
+}
+.footer-right{
+  margin-right:240px;
+}
+.footer-head{
+  background-color: 
+  #e6e6e6;
+  padding: 20px;
+}
+table, th, td {
+  padding: 10px 50px 1px 20px;
+  font-size: 12px;
+ 
+}
+.full-table{
+  margin-top: 30px;
+}
+.placeh{
+ 
+  padding: 5px;
+  border-radius: 3px;
+  border: 0.1px solid;
+  border-color: #bebebe;
+}
+.sub{
+  background-color: #23a6f0;
+ border-radius: 3px;
+ font-size: 10px;
+ color: white;
+}
+.footer-input{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.made{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 30px;
+  margin-left: 230px;
+}
+.end-section{
+ 
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+    /* responsive section */
+
+    @media (max-width: 576px) { 
+     .title
+     {
+      font-size: 9px;
+     }
+     .slider-contenet
+     {
+
+       font-size: 10px;
+       margin-bottom: 0px;
+     }
+     .win-contenet
+     {
+     margin-bottom: 0px;
+     margin-top: 0;
+     font-size: 5px;
+     }
+     .btn
+     {
+      margin: 0;
+      width: 80px;
+      height: 30px;
+      padding: 1px;
+      font-size: 10px;
+     }
+      .container
+      {
+        flex-direction: column;
+       align-items: flex-start;
+        
+      }
+      .image-5
+      {
+        width: 300px;
+        height: 300px;
+        float: left;
+      }
+      .content-1
+      {
+        font-size: 10px;
+        bottom: 2000;
+        margin-bottom: 0;
+
+      }
+      .content-2
+      {
+        font-size: 15px;
+        margin-bottom: 0;
+        
+        
+      }
+      .content-3
+      {
+        margin-bottom: 0;
+        font-size: 8px
+      }
+      .button-1
+      {
+        font-size: 8px;
+        width: 70px;
+        height: 20px;
+      }
+      .button-2
+      {
+        font-size: 8px;
+        width: 70px;
+        height: 20px;
+      }
+      .fhead
+      {
+        font-size: 15px;
+      }
+      .footer-head
+      {
+        width: 100%;
+      }
+      th
+      {
+        font-size: 6px;
+        padding-right:10px;
+      }
+      td
+      {
+        
+        font-size: 6px;
+      }
+      .placeh
+      {
+        width: 40px;
+        height: 10px;
+        font-size: 6px;
+      }
+    }
+
+    @media (min-width: 578px)and (max-width:767px){
+    
+      .title
+      {
+       font-size: 9px;
+      }
+      .slider-contenet
+      {
+ 
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+      .win-contenet
+      {
+      margin-bottom: 3px;
+      margin-top: 0;
+      font-size: 8px;
+      }
+      .btn
+      {
+       margin: 0;
+       width: 110px;
+       height: 30px;
+       padding: 1px;
+      }
+      .image-5
+      {
+        width: 300px;
+        height: 300px;
+        float: left;
+      }
+      .content-1
+      {
+        font-size: 10px;
+        bottom: 2000;
+        margin-bottom: 0;
+
+      }
+      .content-2
+      {
+        font-size: 15px;
+        margin-bottom: 0;
+        
+        
+      }
+      .content-3
+      {
+        margin-bottom: 0;
+        font-size: 8px
+      }
+      .button-1
+      {
+        font-size: 8px;
+        width: 70px;
+        height: 20px;
+      }
+      .button-2
+      {
+        font-size: 8px;
+        width: 70px;
+        height: 20px;
+      }
+    }
+
+    @media (min-width: 767px)and (max-width:991px){
+
+   
+      .title
+      {
+       font-size: 10px;
+      }
+      .slider-contenet
+      {
+ 
+        font-size: 35px;
+        margin-bottom: 3px;
+      }
+      .win-contenet
+      {
+      margin-bottom: 3px;
+      margin-top: 0;
+      font-size: 10px;
+      }
+      .btn
+      {
+       margin: 0;
+       width: 110px;
+       height: 30px;
+       padding: 1px;
+      }
+
+    }
